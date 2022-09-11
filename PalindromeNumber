@@ -2,7 +2,7 @@
  *
  *  LeetCode Problem 9: Palindrome Number solution c++
  *  
- *  O(log(n))
+ *  O(n)
  *
  *  Joel M. Gonzalez Rodriguez
  *
