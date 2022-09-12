@@ -2,7 +2,7 @@
  *
  *  LeetCode Problem 13: Roman to integet solution c++
  *  
- *  Using Hash Map, O(n)
+ *  Using Hash Map
  *
  *  Joel M. Gonzalez Rodriguez
  *
