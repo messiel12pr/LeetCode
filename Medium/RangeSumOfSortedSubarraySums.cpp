@@ -9,7 +9,8 @@
 int rangeSum(vector<int> &nums, int n, int left, int right)
 {
     vector<int> arr;
-    long int ans, l, r;
+    long int ans, 
+    int l, r;
     ans = l = r = 0;
 
     while (l < nums.size())
