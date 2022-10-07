@@ -19,34 +19,33 @@
 
 bool deleteNode(ListNode *head)
 {
-	ListNode *current, *prev;
-	current = prev = head;
-
-	while (current->next != nullptr)
-	{
-		prev = current;
-		current = current->next;
-
-		if (prev->val == current->val)
-		{
-			prev->next = current->next;
-			delete current;
-
-			return true;
-		}
-	}
-
-	return false;
+    ListNode *current, *prev;
+    current=prev=head;
+        
+    while(current->next != nullptr)
+    {
+        prev = current;
+        current = current->next; 
+            
+        if(prev->val == current->val)
+        {
+            prev->next = current->next;
+            delete current;
+                
+            return true;
+        }      
+    }
+    
+    return false;
 }
-
-ListNode *deleteDuplicates(ListNode *head)
-{
-  
-  if (head == nullptr)
-		return head;
-
-	while (deleteNode(head))
-		deleteNode(head);
-
-	return head;
+    
+ListNode* deleteDuplicates(ListNode* head) 
+{   
+    if(head == nullptr)
+        return head;
+        
+    while(deleteNode(head))
+        deleteNode(head);
+        
+    return head;
 }
