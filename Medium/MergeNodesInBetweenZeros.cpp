@@ -19,39 +19,39 @@
 
 ListNode *mergeNodes(ListNode *head)
 {
-	ListNode *prev, *current, *anchorL, *anchorR, *dummy = head;
-	int sum = 0;
-	anchorL = head;
+    ListNode *prev, *current, *anchorL, *anchorR, *dummy = head;
+    int sum = 0;
+    anchorL = head;
 
-	while (current != nullptr)
+    while (current != nullptr)
+    {		
+	if (current->val != 0)
 	{
-		if (current->val != 0)
-		{
-			// If the node is in between the 0's sum and store the value
-			sum += current->val;
-		}
-
-		else
-		{
-			// Update our pointers and store our sum in the list
-			dummy = anchorL;
-			anchorL->val = sum;
-			anchorL = anchorL->next;
-			sum = 0;
-			anchorR = current;
-		}
-		// Continue traversing the list
-		current = current->next;
+	    // If the node is in between the 0's sum and store the value
+	    sum += current->val;
 	}
 
-	// Delete first node (It's 0)
-	prev = head;
-	current = head->next;
-	head = current;
-	delete prev;
+	else
+	{
+	    // Update our pointers and store our sum in the list
+	    dummy = anchorL;
+	    anchorL->val = sum;
+	    anchorL = anchorL->next;
+	    sum = 0;
+	    anchorR = current;
+	}
+	    // Continue traversing the list
+	    current = current->next;
+    }
 
-	// Delete the nodes after our sums
-	dummy->next = nullptr;
+    // Delete first node (It's 0)
+    prev = head;
+    current = head->next;
+    head = current;
+    delete prev;
 
-	return head;
+    // Delete the nodes after our sums
+    dummy->next = nullptr;
+
+    return head;
 }
