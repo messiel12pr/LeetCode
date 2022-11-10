@@ -2,7 +2,7 @@
  *
  *  189. Rotate Array
  *
- *  Using dq
+ *  Using deque
  *
  *  Joel M. Gonzalez Rodriguez
  *
