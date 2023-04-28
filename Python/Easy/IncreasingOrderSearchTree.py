@@ -2,6 +2,8 @@
 
     897. Increasing Order Search Tree
 
+    Solution:
+
 """
 
 def inOrder(r: TreeNode, s: List):

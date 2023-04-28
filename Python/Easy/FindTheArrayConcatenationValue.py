@@ -1,7 +1,9 @@
 '''
+
     2562. Find the Array Concatenation Value 
 
-    Solution
+    Solution:
+
 '''
 
 class Solution:
