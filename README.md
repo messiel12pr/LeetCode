@@ -1,5 +1,5 @@
 # Leetcode Stats:
-![image](https://github.com/messiel12pr/LeetCode/assets/95717805/0ba652fc-3bbd-4460-a116-79fe5a938644)
+![image](https://github.com/messiel12pr/LeetCode/assets/95717805/4013c7b1-385a-43db-9fdf-ab816e6cd037)
 
 # Languages:
-![image](https://github.com/messiel12pr/LeetCode/assets/95717805/b72a88f0-1f5a-4ac9-90f2-a70028124a28)
+![image](https://github.com/messiel12pr/LeetCode/assets/95717805/2134f424-6aa9-44ea-a470-7bc1f5ee1028)
