@@ -1,2 +1,2 @@
 # Leetcode Stats:
-![image](https://github.com/user-attachments/assets/f011198c-263d-4c94-8603-a797a5f91006)
+![image](https://github.com/user-attachments/assets/01883499-fb71-4afc-a83d-199864ccb83c)
